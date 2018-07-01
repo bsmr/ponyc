@@ -6,14 +6,17 @@ All notable changes to the Pony compiler and standard library will be documented
 
 ### Fixed
 
+- Fix performance and memory consumption issues with `files.FileLines` ([PR #2707](https://github.com/ponylang/ponyc/pull/2707))
 
 ### Added
 
 - Add SSL APLN support ([PR #2816](https://github.com/ponylang/ponyc/pull/2816))
 - Make dynamic scheduler scaling more robust and configurable ([PR #2801](https://github.com/ponylang/ponyc/pull/2801))
+- Added `set_up` method to `ponytest.UnitTest` as equivalent to existing `tear_down` method ([PR #2707](https://github.com/ponylang/ponyc/pull/2707))
 
 ### Changed
 
+- Remove `File.line` method in favor of using `FileLines` ([PR #2707](https://github.com/ponylang/ponyc/pull/2707))
 
 ## [0.24.0] - 2018-06-29
 
